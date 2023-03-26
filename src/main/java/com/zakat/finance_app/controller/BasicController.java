@@ -5,6 +5,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * <p>Basic Controller that provides CRUD operations</p>
+ *
+ * @param <T>  Entity
+ * @param <ID> Type of Entity ID
+ */
 public abstract class BasicController<T, ID> {
     protected BasicService<T, ID> service;
 
