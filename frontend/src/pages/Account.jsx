@@ -2,13 +2,13 @@ import React from 'react'
 import MySideMenu from "../components/MySideMenu";
 
 
-function Category() {
+function Account() {
     return (
         <div>
             <MySideMenu/>
-            <h1>Категория</h1>
+            <h1 style={{display:"flex", justifyContent:"center"}}>Счет</h1>
         </div>
     )
 }
 
-export default Category
+export default Account
